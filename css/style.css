@@ -1,0 +1,64 @@
+
+body {
+    background-color: #D1D1D1;
+    margin: 0;
+    padding: 0 220px;
+
+}
+
+h1{
+    margin: 0;
+}
+
+
+.main{
+
+    display: flex;
+    gap: 89px;
+
+    .page-content{
+        display: flex;
+        flex-direction: column;
+        gap: 149px;
+
+        .header{
+
+            .title{
+                display: flex;
+                gap: 18px;
+            }
+
+
+            .navigation{
+                display: flex;
+                gap: 59px;
+
+
+            }
+
+
+            .middle{
+
+            }
+        }
+
+    }
+
+    .image{
+
+        img{
+              
+            width: 329px;
+            height: 414px;
+            background: #999999;
+            box-shadow: 0px 4px 20px rgba(36, 100, 46, 0.46);
+            border-radius: 20px;
+
+        }
+
+    }
+
+
+}
+
+
